@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game123"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <com.p.andrew.projectzz.game.ScorePanel
+        android:id="@+id/ScorePanel"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <com.p.andrew.projectzz.game.GamePanel
+        android:id="@+id/GamePanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

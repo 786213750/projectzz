@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/greenbg">
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:onClick="onStart"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/shopbutton"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:onClick="onshop"
+        android:text="SHOP" />
+
+    <Button
+        android:id="@+id/Options"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Options" />
+</LinearLayout>
